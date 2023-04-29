@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
   .second-section {
     display: flex;
     flex-direction: column;
@@ -27,9 +27,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .img-scnd-sctn {
-    width: 288px;
-    heidth: 320px;
+  .second-section .main-img-second-section .img-scnd-sctn {
     width: rem(288);
     height: rem(320);
   }
