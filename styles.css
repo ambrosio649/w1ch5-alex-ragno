@@ -1,3 +1,42 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Playfair Display", "rubik";
+  min-width: 320px;
+  margin: 0;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.first-page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.first-page-main__inputs {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
@@ -36,3 +75,4 @@ body {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
