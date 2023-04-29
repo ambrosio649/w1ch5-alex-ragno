@@ -12,4 +12,26 @@ body {
   margin: 0;
 }
 
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.first-page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.first-page-main__inputs {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
 /*# sourceMappingURL=styles.css.map */
