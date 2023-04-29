@@ -10,6 +10,29 @@ body {
   font-family: "Playfair Display", "rubik";
   min-width: 320px;
   margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 16px;
+    gap: 100px;
+  }
+  .second-section .main-img-second-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-scnd-sctn {
+    width: 288px;
+    heidth: 320px;
+    width: rem(288);
+    height: rem(320);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
