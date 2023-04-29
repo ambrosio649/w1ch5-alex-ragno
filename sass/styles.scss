@@ -2,7 +2,6 @@
 @use "global";
 @use "responsive";
 
-
 .first-page {
   display: flex;
   flex-direction: column;
@@ -27,22 +26,23 @@
   border: 0;
   border-bottom: 1px solid black;
 
-@media only screen and (max-width: 320px) {
-  .second-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 16px;
-    gap: 100px;
-
-    .main-img-second-section {
+  @media only screen and (max-width: 320px) {
+    .second-section {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 16px;
+      gap: 100px;
 
-      .img-scnd-sctn {
-        width: rem(288);
-        height: rem(320);
+      .main-img-second-section {
+        display: flex;
+        flex-direction: column;
+
+        .img-scnd-sctn {
+          width: rem(288);
+          height: rem(320);
+        }
       }
     }
   }
